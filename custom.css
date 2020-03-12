@@ -1,0 +1,56 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.container {
+	width: auto;
+	max-width: 700px;
+}
+
+#affectRE-logo{
+	margin: 50px 0 50px 0;
+	text-align: center;
+}
+
+	#affectRE-logo img{
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+.footer {
+	background-color: #ebebeb;
+	padding: 15px;
+}
+
+.card{
+	margin-bottom: 25px;
+}
+
+/* Adjust position of last body element in card */
+.card > .card-body:last-child{
+	margin-top: -1.25rem;
+}
+
+/* Special format for current workshop */
+.card-affectRE20 {
+	background-image: linear-gradient(-45deg, rgb(255, 175, 110), rgb(255, 150, 150), rgb(255, 150, 150));
+	color: black;
+}
+
+@media (max-width: 575.98px) {
+
+	.card-title {
+		font-size: larger;
+	}
+	
+	.card-text {
+		font-size: smaller;
+	}
+
+	.card-link {
+		display: block;
+		text-align: center;
+		margin-left: 0px !important; /* Overwrite space to the left */
+		margin-bottom: 5px;
+	}
+}
