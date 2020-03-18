@@ -1,0 +1,6 @@
+# Allow all robots complete access
+User-agent: *
+Disallow:
+
+# Declare sitemap in txt format
+Sitemap: https://affectre.github.io/sitemap.txt
